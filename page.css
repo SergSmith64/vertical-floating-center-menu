@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: yellow;
   min-width: 320px;
@@ -6,5 +11,15 @@ body {
 
 h1 {
   font-size: 50px;
+  color: red;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgba(214, 83, 83, 0.5);
 }
 /*# sourceMappingURL=page.css.map */
